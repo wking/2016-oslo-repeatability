@@ -9,7 +9,7 @@ Welcome to the 2016 #uioCarpentry Oslo workshop on Reproducibility
 .. toctree::
    :maxdepth: 2
 
-
+   repeatability-discussion
 
 Indices and tables
 ==================
