@@ -37,10 +37,10 @@ then forks her workflow, edits three lines to replace the Bowtie2
 aligner with the BWA-mem aligner, and reruns the analysis.
 
 OUTCOME 1: Amanda discovers that indeed her analysis results are quite
-different with BWA.
+different with BWA.  More work is needed.
 
 OUTCOME 2: Amanda discovers that her analysis results are very similar
-whether she uses BWA or Bowtie.
+whether she uses BWA or Bowtie.  Her work is done.
 
 ----
 
