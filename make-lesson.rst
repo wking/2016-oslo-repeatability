@@ -48,11 +48,12 @@ One final note -- to edit, you'll need to do this::
    echo '{ "Editor": { "codemirror_options": { "indentWithTabs": true } } }' >\
       ~/.jupyter/nbconfig/edit.json
 
+Before lunch, make sure to save the Makefile.
 ::
 
    git remote rm origin
    git remote add origin https://github.com/ctb/2016-testtesttest.git
-   git add Makefile matplotlibrc plotcount.py wordcount.py wordcloud.ipynb
+   git add Makefile matplotlibrc plotcount.py wordcount.py
    git config --global user.email titus@idyll.org
    git config --global user.name "Titus Brown"
    git commit -am "update with wordcount"
