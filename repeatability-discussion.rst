@@ -112,3 +112,5 @@ benefits?
 
 The *goal* of this workshop overall is to show you the *kind* of overall
 workflow and toolset that we, and many others, have converged upon.
+
+Next: :doc:`overview-and-agenda`

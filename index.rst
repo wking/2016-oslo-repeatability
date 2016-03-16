@@ -6,10 +6,15 @@
 Welcome to the 2016 #uioCarpentry Oslo workshop on Reproducibility
 ==================================================================
 
+These are the workshop materials for the experimental `Data Carpentry/Reproducibility workshop <https://www.ub.uio.no/english/courses/other/data-carpentry/time-and-place/Reproducibility-data-carpentry2016-03-17.html>`__ we offered at
+
+Instructors: C. Titus Brown, Tracy K. Teal, and Lex Nederbragt.
+
 .. toctree::
    :maxdepth: 2
 
    repeatability-discussion
+   overview-and-agenda
 
 Indices and tables
 ==================
