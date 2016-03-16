@@ -26,6 +26,13 @@ Materials:
    repeatability-discussion
    overview-and-agenda
    intro-jupyter
+   more-jupyter
+
+More advanced materials, if there's time:
+
+.. toctree::
+   README
+   advanced-jupyter
 
 Indices and tables
 ==================

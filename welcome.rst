@@ -1,6 +1,6 @@
-=======
-Welcome
-=======
+========
+Welcome!
+========
 
 * Who are we? Currently, background, interests...
   

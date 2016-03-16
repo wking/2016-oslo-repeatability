@@ -29,7 +29,7 @@ Put in
 To execute it, go up to 'Cell...' and select 'Run'.  You should see the
 output (or a syntax error).
 
-You can also edit and rexecute this cell. Try it!
+You can also edit and re-execute this cell. Try it!
 
 To add a cell, go to Insert and Insert cell below. Now add another statement
 and execute it.
@@ -122,7 +122,7 @@ beginning before saving or continuing a notebook.
 So, that's the majority of the notebook features I use myself.  Let's take
 a look through the menus.
 
-Help ... keyboard shorcuts.  For example, type 'Escape' to go into command
+Help ... keyboard shortcuts.  For example, type 'Escape' to go into command
 mode, and then type 'l'. you'll see line numbers for that cell. toggle 'l'
 again.
 
@@ -178,7 +178,7 @@ put in equations, if you're so inclined.  For example, put in:
 
     $f = \frac{x}{y}$
 
-in a markdown cell and you'll see it render as a nequation.  This uses
+in a markdown cell and you'll see it render as an equation.  This uses
 [latex symbol notation](http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html).
 
 So, in a notebook, you can intersperse code with text.
@@ -190,4 +190,4 @@ there's lots of interesting notebooks to look at in the [Jupyter
 Notebook
 gallery](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks).
 
-[Return to index](https://github.com/ngs-docs/2016-mar-jupyter)
+[Return to index](./index.html) | [next](./more-jupyter.html)
