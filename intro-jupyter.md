@@ -190,4 +190,4 @@ there's lots of interesting notebooks to look at in the [Jupyter
 Notebook
 gallery](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks).
 
-[Return to index](./index.html) | [next](./more-jupyter.html)
+[Return to index](./index.html) | [More Jupyter](./more-jupyter.html)
