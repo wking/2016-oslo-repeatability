@@ -28,6 +28,7 @@ Materials:
    intro-jupyter
    more-jupyter
    make-lesson
+   combining
 
 More advanced materials, if there's time:
 

@@ -48,7 +48,12 @@ One final note -- to edit, you'll need to do this::
    echo '{ "Editor": { "codemirror_options": { "indentWithTabs": true } } }' >\
       ~/.jupyter/nbconfig/edit.json
 
-Saving everything to GitHub::
+Saving everything to GitHub
+---------------------------
+
+Create a github repo.
+
+::
 
    git remote rm origin
    git remote add origin https://github.com/ctb/2016-testtesttest.git

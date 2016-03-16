@@ -67,6 +67,17 @@ OR via terminal.
 * save and download figures;
 * terminal window;
 
+## Where is this all running?
+
+The general architecture of Jupyter Notebook is this:
+
+![jupyter architecture](./images/notebook-arch.png "Notebook architecture")
+
+We are running things in mybinder specifically; we'll cover this later, but:
+basically we're running on Google Compute Engine.
+
+![mybinder architecture](./images/notebook-arch-mybinder.png "mybinder running jupyter")
+
 ## Caveats
 
 * long-running notebooks don't work that well;
