@@ -65,4 +65,4 @@ Create a github repo.
 
 ----
 
-Next: :doc:`stuff`
+Next: :doc:`combining`
