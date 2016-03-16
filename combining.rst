@@ -6,6 +6,9 @@ Discussion topic: why are we using 'make' for the word counting exercise?
 
 .. @@pretend wordlcoud takes a long time.
 
+Related discussion topic: how do we decided what to put in 'make' and what
+to put in a notebook?
+   
 Adding a data analysis narrative
 --------------------------------
 
@@ -42,17 +45,40 @@ and finally show the wordcloud object::
    imshow(wc)
    axis('off')
 
-When you run this all, you should see a word cloud!  (It's not very inspiring,
-sorry.)
+When you run this all, you should see a word cloud!
 
 Now add and commit this, & push to github.  In the terminal window, do::
 
    git add wordcloud.ipynb
    git commit -m "wordcloud notebook"
-   git push
+   git push origin master
 
 Recap
 -----
 
-foo!
+You have done the following:
+
+1. encapsulated your analysis in a Makefile that generates results from
+   raw data;
+2. put your analysis in a git repository, and posted it to github;
+3. written an analysis notebook to generate figures from the results of
+   running the make command;
+
+Testing it out with mybinder
+----------------------------
+
+Take the URL of your github repository and paste it into the top of
+mybinder.org; you don't need to configure any dependencies. Now click
+'make my binder'.  Once it builds, click on the black-and-red button
+'launch binder'.
+
+This will spin up an execution container, running Jupyter notebook,
+that has your analysis repo in it, with everything copied from your
+github repo.
+
+The 'launch binder' URL is something you can give to other people so
+they can run your analysis, too.
+
+To read more on mybinder, see `my blog post
+<http://ivory.idyll.org/blog/2016-mybinder.html>`__.
 
