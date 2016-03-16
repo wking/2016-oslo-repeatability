@@ -1,6 +1,6 @@
 # An introduction to Jupyter Notebook
 
-[Start here](http://mybinder.org/repo/ngs-docs/2016-mar-jupyter-mybinder)
+To open Jupyter for this, click: [Start here](http://mybinder.org/repo/ngs-docs/2016-mar-jupyter-mybinder)
 
 Go [here](https://github.com/ngs-docs/2016-mar-jupyter/blob/master/my%20first%20notebook.ipynb) to see a notebook transcription of this lesson.
 
@@ -190,4 +190,4 @@ there's lots of interesting notebooks to look at in the [Jupyter
 Notebook
 gallery](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks).
 
-[Return to index](./index.html) | [More Jupyter](./more-jupyter.html)
+[Return to index](./index.html) | Next: [More Jupyter](./more-jupyter.html)
