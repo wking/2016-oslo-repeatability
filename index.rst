@@ -27,6 +27,7 @@ Materials:
    overview-and-agenda
    intro-jupyter
    more-jupyter
+   make-lesson
 
 More advanced materials, if there's time:
 

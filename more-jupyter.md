@@ -1,4 +1,4 @@
-# Multiple languages, the console, and caveats
+# More Jupyter: Multiple languages, the console, and caveats
 
 ## Other languages: R notebooks
 
@@ -76,4 +76,4 @@ OR via terminal.
 * the execution order can be confusing: re-run your notebook from
   scratch, frequently.
 
-[Return to index](./index.html) | [next](./index.html)
+[Return to index](./index.html) | Next: ['make', a workflow engine](./make-lesson.html)
