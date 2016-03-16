@@ -15,53 +15,93 @@ Once you have a new terminal, copy and paste the following::
 
    wget https://swcarpentry.github.io/make-novice/make-lesson.zip
    unzip make-lesson.zip
+   cd ./make-lesson/
+
+.. @@
    mv make-lesson/* .
    rmdir make-lesson
 
-This downloads a bunch of stuff from the make lesson, and puts it in the
-current directory.
+This downloads a bunch of scripts from the 'make' lesson, and changes to
+that directory.
 
-.. note::
-
-   A tip on organizing your windows: you can arrange your tabs and windows
-   to faciliate copy-pasting!  Put your terminal window in a new window,
-   and then you can use Alt-TAB (on Windows) or Command-backquote (on Mac)
-   to switch quickly between the windows.
+.. @@ puts it in the current directory.
 
 You will also need to configure matplotlib to display to a file - see `this stackoverflow issue <https://stackoverflow.com/questions/4930524/how-can-i-set-the-backend-in-matplotlib-in-python>`__::
 
    echo backend : Agg >> matplotlibrc
+
+.. note::
+
+   A tip on organizing your windows: we're going to be doing a lot of
+   copy-pasting, and you can arrange your tabs and windows to
+   faciliate this!  Put your terminal window in a new window,
+   and then you can use Alt-TAB (on Windows) or Command-backquote (on
+   Mac) to switch quickly between the windows.
+
+One last step in configuration -- to edit Makefiles with tabs in the Jupyter
+editor, you'll need to do this::
+
+   mkdir -p ~/.jupyter/nbconfig
+   echo '{ "Editor": { "codemirror_options": { "indentWithTabs": true } } }' >\
+      ~/.jupyter/nbconfig/edit.json
+
+(See `my issue in Jupyter's issue tracker <https://github.com/jupyter/jupyter/issues/122>`__ for this and other resolutions.)
 
 ----
 
 Building a Makefile
 -------------------
 
-Now, let's walk through `Automation and Make: Introduction
-<https://swcarpentry.github.io/make-novice/01-intro.html>`__ and
-`Makefiles
-<https://swcarpentry.github.io/make-novice/02-makefiles.html>`__.
+Now, let's walk through the first two bits of the make lesson:
 
-One final note -- to edit, you'll need to do this::
+1. `Automation and Make: Introduction <https://swcarpentry.github.io/make-novice/01-intro.html>`__
 
-   mkdir -p ~/.jupyter/nbconfig
-   echo '{ "Editor": { "codemirror_options": { "indentWithTabs": true } } }' >\
-      ~/.jupyter/nbconfig/edit.json
+2. `Makefiles <https://swcarpentry.github.io/make-novice/02-makefiles.html>`__.
 
+When the time comes to edit files, you can do so in the Jupyter
+console by entering the make-lesson folder, creating a New... Text
+file, and then renaming it to the desired filename.  (See screenshots
+below.)
+
+.. thumbnail:: images/console-new-textfile.png
+   :width: 20%
+
+.. thumbnail:: images/editor-new.png
+   :width: 20%
+
+In your Makefile, you'll need to be sure to put in tabs instead of
+spaces for indents; your final Makefile should look like this:
+           
+.. thumbnail:: images/editor-Makefile.png
+   :width: 20%
+           
 Saving everything to GitHub
 ---------------------------
 
-Create a github repo.
+Configure git, replacing the e-mail and name with your own::
 
-::
+   git config --global user.email some@user.com
+   git config --global user.name "Some User"
 
-   git remote rm origin
-   git remote add origin https://github.com/ctb/2016-testtesttest.git
-   git add Makefile matplotlibrc plotcount.py wordcount.py
-   git config --global user.email titus@idyll.org
-   git config --global user.name "Titus Brown"
-   git commit -am "update with wordcount"
-   git push -u origin master
+Now, create a new git repository, and add all your input files and
+scripts::
+
+   git init
+   git add Makefile matplotlibrc plotcount.py wordcount.py books
+   git commit -m "initial commit"
+
+(Note, here adding the 'books' data into git for convenience, but in
+general we don't recommend putting raw data into your github repo.)
+
+Finally, go to github.com and create a new repository, and then
+run the commands under "...or push an existing repository from the
+command line."  (See screenshot, below.)
+
+.. thumbnail:: images/github-new-repo.png
+   :width: 20%
+
+You should now have a new repository, full of your data, scripts, and
+now a Makefile. Congrats!
 
 ----
 
