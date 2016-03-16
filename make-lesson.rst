@@ -34,12 +34,29 @@ You will also need to configure matplotlib to display to a file - see `this stac
 
 ----
 
+Building a Makefile
+-------------------
+
 Now, let's walk through `Automation and Make: Introduction
 <https://swcarpentry.github.io/make-novice/01-intro.html>`__ and
 `Makefiles
 <https://swcarpentry.github.io/make-novice/02-makefiles.html>`__.
 
-.. One final note -- to edit, you'll need to use the 
+One final note -- to edit, you'll need to do this::
+
+   mkdir -p ~/.jupyter/nbconfig
+   echo '{ "Editor": { "codemirror_options": { "indentWithTabs": true } } }' >\
+      ~/.jupyter/nbconfig/edit.json
+
+::
+
+   git remote rm origin
+   git remote add origin https://github.com/ctb/2016-testtesttest.git
+   git add Makefile matplotlibrc plotcount.py wordcount.py wordcloud.ipynb
+   git config --global user.email titus@idyll.org
+   git config --global user.name "Titus Brown"
+   git commit -am "update with wordcount"
+   git push -u origin master
 
 ----
 
