@@ -25,6 +25,7 @@ Materials:
    welcome
    repeatability-discussion
    overview-and-agenda
+   intro-jupyter
 
 Indices and tables
 ==================
