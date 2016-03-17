@@ -27,4 +27,12 @@ Welcome!
 
 * How many of you have Docker installed? How many of you have AWS accounts?
 
+* Show of hands --
+
+  * worked with Jupyter Notebook before?
+  * shell experience?
+  * used 'make'?
+  * git & github experience?
+  * Docker?
+
 Next: :doc:`repeatability-discussion`
