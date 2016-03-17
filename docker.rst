@@ -160,6 +160,9 @@ Services driver docs <https://docs.docker.com/machine/aws/>`__
 Here, we're going to use Amazon to host and run our Docker images, while
 controlling it from our local machine.
 
+.. thumbnail::  images/docker-arch.png
+   :width: 20%             
+
 Start by logging into the `AWS EC2 console <https://console.aws.amazon.com/ec2/v2/home>`__.
 
 Find your AWS credentials and your VPC ID.
