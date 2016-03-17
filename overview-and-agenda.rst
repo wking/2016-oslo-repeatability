@@ -47,10 +47,8 @@ Agenda
 2. (Re)visiting Make: a workflow engine (CTB)
 3. Lunch!
 4. Putting it all together: make, git, & jupyter notebook. (CTB)
-5. Docker for containerization. (CTB - swiping from the middle bit of https://github.com/ngs-docs/2016-bids-docker/blob/master/day1.rst)
-6. Advanced topics (if time) (CTB - extracting from https://github.com/ngs-docs/2016-mar-jupyter/blob/master/2-jupyter-etc.md)
+5. Docker for containerization. (CTB)
+6. Advanced topics (if time) (CTB)
 7. Travis: building things automagically (TKT)
-
-.. @@
 
 Next: :doc:`intro-jupyter`

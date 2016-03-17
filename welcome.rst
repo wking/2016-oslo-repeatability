@@ -19,4 +19,6 @@ Welcome!
 
 * Where are the bathrooms??
 
+* How many of you have Docker installed? How many of you have AWS accounts?
+
 Next: :doc:`repeatability-discussion`

@@ -93,3 +93,4 @@ they can run your analysis, too.
 To read more on mybinder, see `my blog post
 <http://ivory.idyll.org/blog/2016-mybinder.html>`__.
 
+Next: :doc:`docker`

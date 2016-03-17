@@ -29,6 +29,7 @@ Materials:
    more-jupyter
    make-lesson
    combining
+   docker
 
 More advanced materials, if there's time:
 
