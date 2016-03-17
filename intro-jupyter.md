@@ -79,7 +79,7 @@ the plot line to 'plot(x, y, label="my line")' and then add a
 
 One super neat feature of Jupyter is the ability to load code into a
 cell from other places.  For example, if we go to [the matplotlib gallery](http://matplotlib.org/gallery.html) and see something we want to work with, you
-can load that code into the notebook.  For example, if we like [this plot](http://matplotlib.org/examples/images_contours_and_fields/streamplot_demo_features.html) we can grab it directly like so:
+can load that code into the notebook.  For example, if we like [this plot](http://matplotlib.org/examples/images_contours_and_fields/streamplot_demo_features.html) we can grab it directly like so::
 
    %load http://matplotlib.org/mpl_examples/images_contours_and_fields/streamplot_demo_features.py
 
