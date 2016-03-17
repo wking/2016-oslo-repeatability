@@ -13,16 +13,18 @@ the ability to repeat, exactly, a computational analysis.
 words "reproducibility" and "replication", and even "repeatability". Sorry.)
 
 In many computational analyses, repeatability should be pretty easy to
-achieve - given same input data, 
+achieve - given same input data, same scripts, same workflow, and same
+installed packages, you should be able to generate the same results.
 
 Why is repeatability valuable? There are two reasons:
 
-1. Efficiency, reuse, and remixing - you and others can repeat, edit,
-   reuse, and repurpose work.
+1. Repeatability is valuable for efficiency, reuse, and remixing - you
+   and others can repeat, edit, reuse, and repurpose the work.
 
-2. Reproducibility - if someone else cannot reach approximately the same
-   results with similar input data, then *repeatability* is a requirement
-   for tracking down the differences.
+2. Repeatability is important for *reproducibility* - if someone else
+   cannot reach approximately the same results with similar input
+   data, then *repeatability* is a requirement for tracking down the
+   differences.
 
 Two stories
 -----------

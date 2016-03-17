@@ -55,7 +55,14 @@ before saving a notebook you should go run all: Cell menu, Run all.
 That will run all the cells in order in the notebook.
 
 Cell output updates in real time. So, if you have long-running cells you'll
-see output as it comes.
+see output as it comes.  For example, ::
+
+   import time
+   for i in range(10):
+      print(i)
+      time.sleep(1)
+
+will produce output in realtime.
 
 ## Plotting
 
