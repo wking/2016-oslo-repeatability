@@ -55,10 +55,10 @@ configurations and also shipping these fully configured "containers"
 around.
 
 A super quick introduction to Docker
-====================================
+------------------------------------
 
 Before Getting Started
-----------------------
+======================
 
 Can you run this? ::
 
@@ -80,7 +80,7 @@ run this to reset your local docker install::
    docker-machine restart default && eval "$(docker-machine env default)"
 
 Getting started
----------------
+===============
 
 Try::
 
@@ -152,7 +152,7 @@ Two handy commands to clean up (a) stopped containers and (b)  ::
   docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
 
 Using docker-machine to run Docker on AWS
-=========================================
+-----------------------------------------
 
 Documentation: https://docs.docker.com/machine/; also see `Amazon Web
 Services driver docs <https://docs.docker.com/machine/aws/>`__
@@ -241,7 +241,7 @@ Let's talk more about why you would want to do *this* :).
 Also, diagrams!
 
 Building your own Docker image (by writing a Dockerfile)
-========================================================
+--------------------------------------------------------
 
 On your local machine, create a new (empty) directory called
 'wordcloud-image'.  In that directory, create a file 'Dockerfile'
@@ -257,7 +257,7 @@ and then execute::
 
 Now run it::
 
-  docker run -it -p 9000:8888 -v wordcloud-image
+  docker run -it -p 9000:8888 wordcloud-image
 
 and in the docker container you should be able to execute your entire
 workflow from within the notebook:
@@ -274,7 +274,7 @@ In the notebook,
 
 
 Some final points on Docker
-===========================
+---------------------------
 
 Docker is a decent solution for "single chassis" compute, where you
 can run everything on one computer.

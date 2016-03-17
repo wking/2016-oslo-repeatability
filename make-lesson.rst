@@ -7,8 +7,16 @@ new Makefile into a git repository on GitHub.
 
 ----
 
-We're going to walk through the first two parts of the
-`Software Carpentry 'make' tutorial <https://swcarpentry.github.io/make-novice/index.html>`__.  To get started, we'll have to:
+'make' is a way to set up a computational pipeline, or workflow, in such a
+way that you can execute it all with a single command.  (There are other
+programs than 'make', including snakemake, pydoit, scons, and makeflow; they
+all do fairly similar things.)  We're using 'make' because it's simple,
+it's ubiquitous, and it illustrates the basic points.
+
+We're going to walk through the first two parts of the `Software
+Carpentry 'make' tutorial
+<https://swcarpentry.github.io/make-novice/index.html>`__.  To get
+started, we'll have to:
 
 1. download some data;
 2. configure matplotlib to work without interactive graphics;
