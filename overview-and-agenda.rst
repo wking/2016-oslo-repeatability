@@ -51,4 +51,6 @@ Agenda
 6. Advanced topics (if time) (CTB - extracting from https://github.com/ngs-docs/2016-mar-jupyter/blob/master/2-jupyter-etc.md)
 7. Travis: building things automagically (TKT)
 
+.. @@
+
 Next: :doc:`intro-jupyter`

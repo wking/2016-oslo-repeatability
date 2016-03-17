@@ -2,8 +2,17 @@
 A brief introduction to 'make', a workflow engine
 =================================================
 
+Learning objectives: get a first look at a Makefile, and put your code and
+new Makefile into a git repository on GitHub.
+
+----
+
 We're going to walk through the first two parts of the
-`Software Carpentry 'make' tutorial <https://swcarpentry.github.io/make-novice/index.html>`__.
+`Software Carpentry 'make' tutorial <https://swcarpentry.github.io/make-novice/index.html>`__.  To get started, we'll have to:
+
+1. download some data;
+2. configure matplotlib to work without interactive graphics;
+3. fix our editor to put tabs in Makefiles;
 
 Create a new terminal by going to the Console (File... Open...) and then
 doing New... Terminal.  See the screenshot below --
@@ -17,14 +26,8 @@ Once you have a new terminal, copy and paste the following::
    unzip make-lesson.zip
    cd ./make-lesson/
 
-.. @@
-   mv make-lesson/* .
-   rmdir make-lesson
-
 This downloads a bunch of scripts from the 'make' lesson, and changes to
 that directory.
-
-.. @@ puts it in the current directory.
 
 You will also need to configure matplotlib to display to a file - see `this stackoverflow issue <https://stackoverflow.com/questions/4930524/how-can-i-set-the-backend-in-matplotlib-in-python>`__::
 
@@ -78,13 +81,23 @@ spaces for indents; your final Makefile should look like this:
 Saving everything to GitHub
 ---------------------------
 
+At this point, you should be able to type 'make' to build everything,
+and 'make clean' to remove all the outputs and start over from scratch.
+Now we want to save this to github so that we can communicate it to
+ourselves (and others!)
+
+First, we'll make a git repository.
+
+Making a local git repo
+~~~~~~~~~~~~~~~~~~~~~~~
+
 Configure git, replacing the e-mail and name with your own::
 
    git config --global user.email some@user.com
    git config --global user.name "Some User"
 
-Now, create a new git repository, and add all your input files and
-scripts::
+Now, create a new local git repository, and add all your input files
+and scripts::
 
    git init
    git add Makefile matplotlibrc plotcount.py wordcount.py books
@@ -93,9 +106,14 @@ scripts::
 (Note, here adding the 'books' data into git for convenience, but in
 general we don't recommend putting raw data into your github repo.)
 
-Finally, go to github.com and create a new repository, and then
-run the commands under "...or push an existing repository from the
-command line."  (See screenshot, below.)
+Now, we want to push this to a public repository on github.
+
+Pushing from a local repository to github
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Finally, go to github.com and create a new repository, and then copy
+and paste the commands under "...or push an existing repository from
+the command line."  (See screenshot, below.)
 
 .. thumbnail:: images/github-new-repo.png
    :width: 20%

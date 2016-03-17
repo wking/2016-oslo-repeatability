@@ -64,6 +64,17 @@ You have done the following:
 3. written an analysis notebook to generate figures from the results of
    running the make command;
 
+At this point, you have a fully articulated analysis workflow with both
+a script-based data reduction and a Jupyter Notebook graphing analysis.
+
+Moreover, anyone who has access to your git repository (which is
+*everybody*, in this instance) can both get your workflow and (with
+the proper software) run it.
+
+At this point we can take advantage of a service called 'mybinder' which
+will actually let you *run* your analysis and your notebooks for free
+on the Google cloud.
+
 Testing it out with mybinder
 ----------------------------
 
