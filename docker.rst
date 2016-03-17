@@ -269,6 +269,30 @@ In the notebook,
 
 * run the notebook analysis.
 
+
+Some final points on Docker
+===========================
+
+Docker is a decent solution for "single chassis" compute, where you
+can run everything on one computer.
+
+Docker:
+
+* gives you a consistent environment - either static OR procedurally generated;
+* lets you move compute to the data;
+* it also gives you a way to run anonymous or encapsulated compute.
+
+but:
+
+* it's not declarative (you can't computationally analyze all
+  Dockerfiles without just running them);
+* you run the risk of just dumping everything into a binary blog that
+  provides no insight or remixability.
+
+You can read some more thoughts on Docker (and mybinder) here:
+
+   http://ivory.idyll.org/blog/2016-mybinder.html
+
 ----
   
 Return to index: :doc:`index`

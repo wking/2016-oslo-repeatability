@@ -79,6 +79,9 @@ analysis workflow had been easy to repeat, it would have been
 difficult to know whether data analysis was the source of the
 differences or not.
 
+IMO, reproducibility *cannot* be demonstrated in a single lab / within a single
+paper. It has to be the product of multiple people, labs, and publications.
+
 For computational folk, *repeatability* is useful for reproducibility,
 but also for other purposes - consider the first story, above, where
 Amanda can re-run her analysis quickly with a different aligner (or
@@ -103,7 +106,7 @@ This efficiency argument can be extended to many more scenarios --
   data, Julio's data, etc. with some consistency.
 
 The first three of these scenarios increase efficiency and time to publication
-for Amanda and her group; the fourth is a more general improvement for the
+for Amanda and her group; the fourth is more generally beneficial for the
 field overall.
 
 The question for you all to consider is this: how much time and effort
